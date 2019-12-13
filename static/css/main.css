@@ -154,6 +154,51 @@ body .main-content .portfolio-section .grid .card .card-button:hover {
   background: #64b2f3;
 }
 
+body .main-content .contact-section {
+  background-color: #f4f6f9;
+  padding: 50px 25px;
+  color: #444;
+  /*.contacts {
+                box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);
+                background: #fff;
+                padding: 30px;
+                width: 450px;
+                border-radius: 5px;
+                margin: 0 auto;
+                margin-top: 40px;
+            }*/
+}
+
+body .main-content .contact-section h2 {
+  margin-bottom: 20px;
+}
+
+body .main-content .contact-section .form-container form {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+body .main-content .contact-section .form-container form input, body .main-content .contact-section .form-container form textarea {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+body .main-content .contact-section .form-container form textarea {
+  height: 150px;
+}
+
+body .main-content .contact-section .form-container form button {
+  background: #3498db;
+  width: 100%;
+  padding: 15px;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
+
 body footer {
   background-color: #151515;
   color: #f4f4f4;
